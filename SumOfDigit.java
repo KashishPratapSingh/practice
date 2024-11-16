@@ -6,7 +6,6 @@ public class SumOfDigit {
         int n=scn.nextInt();
         System.out.println(sumOfDigit(n));
     }
-
     public static int sumOfDigit(int n) {
         int sum = 0;
         while (n != 0) {
